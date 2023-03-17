@@ -1,0 +1,33 @@
+/*Sort the properties in alphanumeric order*/
+
+/****************************************TAG SELECTORS****************************************/
+body {
+  background-color: #dfe8cc;
+}
+
+h1 {
+  color: #43a1a1;
+}
+
+h3 {
+  color: #4fb6b6;
+}
+
+hr {
+  border-color: #939d9e;
+  border-style: none;
+  border-top-style: solid;
+  width: 10%;
+}
+
+/****************************************CLASS SELECTORS****************************************/
+
+/****************************************ID SELECTORS****************************************/
+
+#name-US {
+  font-family: cursive; /*Change later*/
+}
+
+#name-TW {
+  font-family: Simsun; /*Change later*/
+}
