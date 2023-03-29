@@ -1,7 +1,14 @@
 /*Sort the properties in alphanumeric order*/
 
 /****************************************TAG SELECTORS****************************************/
-a {
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* a {
   color: #11999E;
   font-family: 'Noto Sans Display', sans-serif;
   margin: 10px 20px;
@@ -22,7 +29,7 @@ body {
 h1 {
   color: #66BFBF;
   font-family: 'Sacramento', cursive;
-  font-size: 5rem; /*16px = 100% = 1em*/
+  font-size: 5rem; //16px = 100% = 1em
   margin: 1rem auto;
 }
 
@@ -52,7 +59,7 @@ p {
   line-height: 2;
 }
 
-/* h1 {
+h1 {
   color: #43a1a1;
 }
 
@@ -68,7 +75,11 @@ hr {
 } */
 
 /****************************************CLASS SELECTORS****************************************/
-.basketball-image {
+.container-fluid {
+  padding: 0 10%;
+}
+
+/* .basketball-image {
   border: none;
   float: right;
   margin-left: 30px;
@@ -168,9 +179,17 @@ hr {
   position: relative;
   padding-top: 120px;
   text-align: center;
-}
+} */
 
 /****************************************ID SELECTORS****************************************/
+#navigation {
+  background-color: #DFE8CC;
+}
+
+#title {
+  padding: 3% 0;
+  background-color: #66BFBF;
+}
 
 /* #name-US {
   font-family: cursive;
