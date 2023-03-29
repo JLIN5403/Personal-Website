@@ -1,6 +1,10 @@
 /*Sort the properties in alphanumeric order*/
 
 /****************************************TAG SELECTORS****************************************/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -77,6 +81,18 @@ hr {
 /****************************************CLASS SELECTORS****************************************/
 .container-fluid {
   padding: 0 10%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
 }
 
 /* .basketball-image {
@@ -187,7 +203,6 @@ hr {
 }
 
 #title {
-  padding: 3% 0;
   background-color: #66BFBF;
 }
 
