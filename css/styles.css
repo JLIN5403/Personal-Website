@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.3rem;
   line-height: 1.5;
 }
 
@@ -80,12 +80,12 @@ hr {
 
 /****************************************CLASS SELECTORS****************************************/
 .container-fluid {
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
