@@ -86,13 +86,13 @@ hr {
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 /* .basketball-image {
@@ -204,6 +204,10 @@ hr {
 
 #title {
   background-color: #66BFBF;
+}
+
+#footer {
+  background-color: #DFE8CC;
 }
 
 /* #name-US {
