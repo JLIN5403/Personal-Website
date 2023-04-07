@@ -95,6 +95,10 @@ hr {
   font-weight: 400;
 }
 
+.profile-picture {
+  width: 75%;
+}
+
 /* .basketball-image {
   border: none;
   float: right;
