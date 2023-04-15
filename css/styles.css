@@ -1,16 +1,23 @@
 /*Sort the properties in alphanumeric order*/
 
-/****************************************TAG SELECTORS****************************************/
-body {
+/**********TAG SELECTORS**********/
+/* body {
   font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   line-height: 1.5;
-}
+} */
+
+/* p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+} */
 
 /* a {
   color: #11999E;
@@ -78,9 +85,9 @@ hr {
   width: 10%;
 } */
 
-/****************************************CLASS SELECTORS****************************************/
-.container-fluid {
-  padding: 0 15%;
+/**********CLASS SELECTORS**********/
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-brand {
@@ -96,117 +103,19 @@ hr {
 }
 
 .profile-picture {
-  width: 75%;
+  width: 90%;
 }
 
-/* .basketball-image {
-  border: none;
-  float: right;
-  margin-left: 30px;
-  width: 25%;
+.text-justify {
+  text-align: justify;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 450px;
-  bottom: 300px;
-}
-
-.btn {
-  background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Noto Sans Display', sans-serif;
-  color: #FFFFFF;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #30E3CB;
-  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
-  text-decoration: none;
-}
-
-.bottom-container {
-  background-color: #DFE8CC;
-  padding: 50px 0 20px;
-  margin: 60px auto 0;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.copyright {
-  color: #747D7D;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-.intro {
-  width: 30%;
-  margin: auto;
-}
-
-.middle-container {
-  margin-top: 100px;
-}
-
-.hacker-image{
-  border: none;
-  float: left;
-  margin-right: 30px;
-  width: 25%;
-}
-
-.profile-picture{
-  width: 20%;
-}
-
-.skill-row {
-  margin: 6rem auto;
-  text-align: left;
-  width: 50%;
-}
-
-.sun {
-  position: absolute;
-  top: 5px;
-  right: 430px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 450px;
-  top: 60px;
-}
-
-.top-container {
-  background-color: #DFE8CC;
-  position: relative;
-  padding-top: 120px;
-  text-align: center;
-} */
-
-/****************************************ID SELECTORS****************************************/
+/**********ID SELECTORS**********/
 #navigation {
   background-color: #DFE8CC;
 }
 
-#title {
+#introduction {
   background-color: #66BFBF;
 }
 
@@ -214,10 +123,44 @@ hr {
   background-color: #DFE8CC;
 }
 
-/* #name-US {
-  font-family: cursive;
+/**********Media Queries**********/
+@media (min-width: 0px) {
+  .container-fluid {
+    padding: 0 5%;
+  }
 }
 
-#name-TW {
-  font-family: Simsun;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container-fluid {
+    padding: 0 7%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container-fluid {
+    padding: 0 10%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container-fluid {
+    padding: 0 15%;
+  }
+
+  .profile-picture {
+    width: 90%;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+
+} */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+
 } */

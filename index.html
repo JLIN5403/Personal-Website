@@ -22,11 +22,11 @@
     <link rel="icon" href="images/favicon.ico" />
   </head>
 
-  <body>
+  <body class="font-montserrat">
     <section id="navigation">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">JLin</a>
+          <a class="navbar-brand" href="index.html">JLin</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -53,57 +53,59 @@
       </div>
     </section>
 
-    <section id="title">
+    <section id="introduction">
       <div class="container-fluid py-5">
-        <div class="row">
-          <div class="col-lg-7 order-2 order-lg-1 text-lg-start text-center">
-            <h1>I'm Yen-Cheng Lin.</h1>
-            <h2>a programmer.</h2>
-            <button type="button" class="btn btn-dark btn-lg my-3"><i class="fa-solid fa-info"></i> Learn More</button>
+        <div class="row text-center">
+          <div class="col-lg-5">
+            <img src="images/profile_picture.png" class="profile-picture img-fuild float-lg-start" alt="my-profile-picture" />
           </div>
-          <div class="col-lg-5 order-1 order-lg-2 text-center pb-lg-0 pb-sm-3">
-            <img src="images/profile_picture.png" class="profile-picture img-fluid" alt="my-profile-picture" />
+          <div class="col-lg-7 text-lg-start mt-4 mt-lg-0">
+            <h1 class="display-5 fw-bold lh-1">Yen-Cheng Lin</h1>
+            <p class="fs-5 text-justify mt-3">
+              Welcome to my personal website! I am a MS student at Virginia Tech majoring in Computer Engineering with a research focus in AI Assurance. This website is a showcase of my work and an opportunity for me to share my journey with you.
+              Whether you are here to learn more about my background, check out some of my latest projects, or just connect with me, I am glad you stopped by. Take a look around, and feel free to get in touch!
+            </p>
+            <!-- <a class="btn btn-dark btn-lg" href="about.html">Learn More</a> -->
+            <!-- <a class="btn btn-dark btn-lg my-3" href="about.html"><i class="fa-solid fa-info"></i> Learn More</a> -->
           </div>
         </div>
       </div>
     </section>
 
     <section id="latest-work">
-      <div class="container-fluid">
+      <div class="container-fluid py-4">
         <header class="py-4">
-          <div class="container">
-            <div class="row text-center">
-              <div class="col px-0">
-                <hr />
-              </div>
-              <div class="col-auto px-4">
-                <h3>Some of My Latest Work</h3>
-              </div>
-              <div class="col px-0">
-                <hr />
-              </div>
+          <div class="row text-center">
+            <div class="col d-none d-md-block">
+              <hr />
+            </div>
+            <div class="col-auto mx-auto">
+              <h3>Some of My Latest Work</h3>
+            </div>
+            <div class="col d-none d-md-block">
+              <hr />
             </div>
           </div>
         </header>
-        <div class="row justify-content-center">
+        <div class="row card-deck mb-3 text-center">
           <div class="col-12 col-lg-4">
-            <div class="card mb-5">
-              <img class="card-img-top" src="project1.png" alt="Project 1" />
+            <div class="card">
+              <img class="card-img-top" src="project1.png" alt="project-1-picture" />
               <div class="card-body">
                 <h5 class="card-title">Project 1</h5>
-                <p class="card-text">Description of project 1</p>
+                <p class="card-text">Description of project #</p>
                 <div class="text-center">
                   <a href="#" class="btn btn-primary">View Project</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="card mb-5">
-              <img class="card-img-top" src="project2.png" alt="Project 2" />
+          <div class="col-12 col-lg-4 my-2 my-lg-0">
+            <div class="card">
+              <img class="card-img-top" src="project2.png" alt="project-2-picture" />
               <div class="card-body">
                 <h5 class="card-title">Project 2</h5>
-                <p class="card-text">Description of project 2</p>
+                <p class="card-text">Description of project #</p>
                 <div class="text-center">
                   <a href="#" class="btn btn-primary">View Project</a>
                 </div>
@@ -111,11 +113,11 @@
             </div>
           </div>
           <div class="col-12 col-lg-4">
-            <div class="card mb-5">
-              <img class="card-img-top" src="project3.png" alt="Project 3" />
+            <div class="card">
+              <img class="card-img-top" src="project3.png" alt="project-3-picture" />
               <div class="card-body">
                 <h5 class="card-title">Project 3</h5>
-                <p class="card-text">Description of project 3</p>
+                <p class="card-text">Description of project #</p>
                 <div class="text-center">
                   <a href="#" class="btn btn-primary">View Project</a>
                 </div>
@@ -127,7 +129,7 @@
     </section>
 
     <section id="footer">
-      <div class="container-fluid py-3">
+      <div class="container-fluid mt-4 py-3">
         <div class="row align-items-center">
           <div class="col-12 col-lg-6 order-2 order-lg-1 text-center text-lg-start">
             <p class="mb-0">© 2023 Yen-Cheng Lin</p>
@@ -135,124 +137,18 @@
           <div class="col-12 col-lg-6 order-1 order-lg-2">
             <ul class="nav justify-content-center justify-content-lg-end">
               <li class="nav-item">
-                <a class="nav-link px-0" href="https://www.linkedin.com/in/yen-cheng-lin/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="nav-link px-0" href="https://www.linkedin.com/in/yen-cheng-lin/" target="_blank"><i class="fa-brands fa-linkedin text-secondary"></i></a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a class="nav-link" href="#" target="_blank"><i class="fa-solid fa-envelope text-secondary"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link px-0" href="https://github.com/JLIN5403" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a class="nav-link px-0" href="https://github.com/JLIN5403" target="_blank"><i class="fa-brands fa-github text-secondary"></i></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- <div class="top-container">
-      <img class="sun" src="images/sun.png" alt="sun-image" />
-      <img class="top-cloud" src="images/cloud.png" alt="cloud-image" />
-      <h1>I'm Yen-Cheng Lin.</h1>
-      <h2>a programmer.</h2>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image" />
-      <img src="images/mountain.png" alt="mountain-image" />
-    </div>
-
-    <div class="middle-container">
-      <div class="profile">
-        <img class="profile-picture" src="images/profile_picture.png" alt="my-profile-picture" />
-        <h2>Hello.</h2>
-        <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-      </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="hacker-image" src="images/hacker.png" alt="hacker-image" />
-          <h3>Lorem & Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        </div>
-        <div class="skill-row"> -->
-    <!-- <img class="" src="" alt="" /> -->
-    <!-- <iframe src="https://giphy.com/embed/vYBn9vkgHPrmoRDa3e" class="basketball-image" allow="fullscreen"></iframe>
-          <h3>Lorem Ipsum Dolor</h3>
-          <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-        </div>
-      </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-        <a class="btn" href="mailto:name@email.com" target="_blank">CONTACT ME</a>
-      </div>
-    </div>
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/" target="_blank">Twitter</a>
-      <a class="footer-link" href="https://github.com/" target="_blank">GitHub</a> -->
-    <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
-    <!-- <p class="copyright">© 2023 Yen-Cheng Lin @ Virginia Tech.</p>
-    </div> -->
-
-    <!-- <img src="images/profile_picture.png" width height="200px" alt="my-profile-picture" />
-    <h1 id="name-US">Yen-Cheng Lin <span id="name-TW" lang="zh-TW">林彥承</span></h1>
-
-    <p>
-      <em>
-        Graduate Research Assistant at
-        <strong><a href="https://cyberinitiative.org/" target="_blank">Commonwealth Cyber Initiative (CCI)</a></strong>
-      </em>
-    </p>
-
-    <p>I am a Master student at Virginia Tech majoring in computer engineering. My research focuses on...</p>
-
-    <hr />
-
-    <h3>About</h3>
-
-    <ul>
-      <li>Born in Taipei City, Taiwan</li>
-      <li>Moved to the US at 15</li>
-      <li>I can code</li>
-    </ul>
-
-    <hr />
-
-    <h3>Work Experience</h3>
-
-    <table>
-      <tr>
-        <td>01/2023 &ndash; Present</td>
-        <td>Graduate Research Assistant</td>
-      </tr>
-      <tr>
-        <td>08/2022 &ndash; 12/2022</td>
-        <td>Graduate Teaching Assistant</td>
-      </tr>
-    </table>
-
-    <hr />
-
-    <h3>Skills</h3>
-
-    <table>
-      <tr>
-        <td>C</td>
-        <td>&#11088; &#11088; &#11088;</td>
-      </tr>
-      <tr>
-        <td>C++</td>
-        <td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
-      </tr>
-      <tr>
-        <td>Python</td>
-        <td>&#11088; &#11088; &#11088; &#11088;</td>
-      </tr>
-    </table>
-
-    <a href="hobbies.html">Hobbies</a>
-    <a href="contact_me.html">Contact Me</a> -->
   </body>
 </html>
